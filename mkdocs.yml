@@ -1,0 +1,50 @@
+site_name: PyCuVSLAM ROS2
+site_description:  ROS2 Package for using PyCuVSLAM
+site_url: https://sachinkum0009.github.io/pycuvslam-ros2/
+site_author: Sachin Kumar
+repo_url: https://github.com/sachinkum0009/pycuvslam-ros2
+repo_name: pycuvslam-ros2
+
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # favicon: ./favicon.png
+  icon:
+    logo: material/camera
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.select
+
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: blue
+      accent: pink
+
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: blue grey
+      accent: deep orange
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api.md
